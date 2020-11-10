@@ -77,6 +77,14 @@
         </div>
         
     </div>
+    
+     <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
+     url="jdbc:mysql://localhost/GuruTest"
+     user="gururoot"  password="guru"/>
+ String sql = "INSERT INTO tbl (col1, col2, col3) VALUES ('" + col1 + "', '" + col2 + "', '" + col3 + "')";
+<sql:query dataSource="${snapshot}" var="result">
+SELECT * from guru_test;
+</sql:query>
 
     <hr>
 

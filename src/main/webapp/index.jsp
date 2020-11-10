@@ -76,12 +76,6 @@
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         
-        <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
-         url = "jdbc:mysql://localhost/TEST"
-         user = "root" password = "pass123"/>
-         <sql:query dataSource = "${snapshot}" var = "result">
-         SELECT * from Employees;
-      </sql:query>
     </div>
 
     <hr>

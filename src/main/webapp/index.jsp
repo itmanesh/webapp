@@ -40,6 +40,8 @@
                     <input type="text" placeholder="Email" class="form-control">
                     test@test.com
                     </br>
+                <%@ page import="java.util.*,java.io.*"%>
+<% out.println(request.getParameter("name")); %>
                 192.168.43.26
                 </br>
                 @WithMockUser(username = "guest", password = "guest")

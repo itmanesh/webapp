@@ -38,6 +38,11 @@
             <form class="navbar-form navbar-right" role="form">
                 <div class="form-group">
                     <input type="text" placeholder="Email" class="form-control">
+                    test@test.com
+                    </br>
+                192.168.43.26
+                </br>
+            select * from table1 where 1=1
                 </div>
                 <div class="form-group">
                     <input type="password" placeholder="Password" class="form-control">

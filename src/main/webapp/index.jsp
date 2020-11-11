@@ -42,7 +42,7 @@
                     </br>
                 192.168.43.26
                 </br>
-            select * from table1 where 1=1
+                @WithMockUser(username = "guest", password = "guest")
                 </div>
                 <div class="form-group">
                     <input type="password" placeholder="Password" class="form-control">
